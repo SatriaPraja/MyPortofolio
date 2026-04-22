@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <main className="overflow-x-hidden">
-      <Navbar lang={lang} setLang={setLang} />
+      <Navbar  />
       <Hero t={t.hero} />
       <About t={t.about} />
       <Skills t={t.skills} />
